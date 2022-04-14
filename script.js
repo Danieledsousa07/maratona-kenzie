@@ -8,16 +8,12 @@ function positions (fistPlace,secondPlace,lastPlace){
     }else if (secondPlace == "Daniel"){
         return ("Primeiro - colocado: " + secondPlace + " ,Segundo - colocado: " + fistPlace + " ,Terceiro - colocado: " + lastPlace)
 
-
-
-
     }else if (lastPlace == "Daniel"){
 
         return ("Primeiro - colocado: " + fistPlace + " ,Segundo - colocado: " + lastPlace + " ,Terceiro - colocado: " + secondPlace ) 
 
     }
    
-
 }
 positions("Daniel","Rafael","Manoel")
 
